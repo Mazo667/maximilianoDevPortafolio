@@ -1,0 +1,129 @@
+<section class="min-h-screen bg-black p-4 md:p-8 font-sans text-gray-300">
+
+    <header class="max-w-4xl mx-auto flex items-center justify-between pb-6 border-b border-gray-800 mb-8 md:mb-12">
+        <a routerLink="/optifinanzas"
+            class="flex items-center gap-2 text-gray-400 hover:text-opti-green transition-colors">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18">
+                </path>
+            </svg>
+            <span class="text-sm font-medium">Volver a OptiFinanzas</span>
+        </a>
+        <div class="flex items-center gap-6">
+            <div class="flex items-center gap-3">
+                <img src="assets/icono_optifinanzas_no_bg.svg" alt="Logo OptiFinanzas" class="h-8 w-8">
+                <span class="text-white text-lg font-bold hidden sm:block">Opti<span
+                        class="text-opti-green">Finanzas</span></span>
+            </div>
+
+            <!-- Selector de lenguajes -->
+            <div class="relative">
+                <button (click)="toggleLangMenu($event)" 
+                    class="flex items-center gap-2 bg-opti-dark-card border border-gray-700 text-white rounded-lg px-3 py-2 hover:border-opti-green transition-colors focus:outline-none focus:ring-2 focus:ring-opti-green shadow-sm">
+                    <span class="text-lg">{{ currentLanguage.flag }}</span>
+                    <span class="hidden sm:inline-block font-medium text-sm">{{ currentLanguage.name }}</span>
+                    <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                
+                @if(isLangMenuOpen) {
+                <div class="absolute right-0 mt-2 w-40 bg-opti-dark-card border border-gray-700 rounded-lg shadow-xl z-50 overflow-hidden" (click)="$event.stopPropagation()">
+                    <ul>
+                        @for(lang of languages; track lang.code) {
+                        <li>
+                            <button (click)="changeLanguage(lang.code)" 
+                                class="w-full text-left px-4 py-3 flex items-center gap-3 hover:bg-gray-800 transition-colors"
+                                [class.text-opti-green]="lang.code === currentLanguage.code"
+                                [class.text-gray-300]="lang.code !== currentLanguage.code">
+                                <span class="text-xl">{{ lang.flag }}</span>
+                                <span class="font-medium text-sm">{{ lang.name }}</span>
+                            </button>
+                        </li>
+                        }
+                    </ul>
+                </div>
+                }
+            </div>
+        </div>
+    </header>
+
+    <div
+        class="max-w-4xl mx-auto bg-opti-dark-card rounded-3xl shadow-2xl overflow-hidden border border-gray-800 mb-12">
+        <div class="p-6 md:p-12 lg:p-16">
+
+            <div class="mb-10 border-b border-gray-800 pb-8">
+                <h1 class="text-3xl md:text-5xl font-extrabold tracking-tight text-white mb-4">
+                    Términos y Condiciones
+                </h1>
+                <p class="text-sm text-opti-green font-medium uppercase tracking-widest">
+                    Última actualización: <span class="text-gray-400">Abril de 2026</span>
+                </p>
+            </div>
+
+            <div class="space-y-8 text-base md:text-lg leading-relaxed">
+
+                <p>
+                    Bienvenido a OptiFinanzas. Al descargar, instalar o utilizar nuestra aplicación móvil, usted acepta
+                    estar sujeto a los siguientes Términos y Condiciones. Le rogamos que los lea detenidamente antes de
+                    utilizar nuestro servicio.
+                </p>
+
+                <section>
+                    <h2 class="text-xl md:text-2xl font-bold text-white mb-3">1. Aceptación de los Términos</h2>
+                    <p>
+                        [Aquí va el texto detallando que el uso de la app implica la aceptación automática de estas
+                        reglas. Si el usuario no está de acuerdo, debe desinstalar la aplicación.]
+                    </p>
+                </section>
+
+                <section>
+                    <h2 class="text-xl md:text-2xl font-bold text-white mb-3">2. Uso de la Aplicación</h2>
+                    <p>
+                        [Aquí va el texto sobre las condiciones de uso. Por ejemplo: que la app es para uso personal,
+                        que el usuario es responsable de la veracidad de los datos que ingresa (ingresos, gastos), etc.]
+                    </p>
+                </section>
+
+                <section>
+                    <h2 class="text-xl md:text-2xl font-bold text-white mb-3">3. Privacidad y Protección de Datos</h2>
+                    <p>
+                        El manejo de sus datos financieros y personales se rige por nuestra <a
+                            routerLink="/optifinanzas/politica-de-privacidad"
+                            class="text-opti-green hover:underline">Política de Privacidad</a>. [Aquí puedes agregar un
+                        resumen breve o dejar que la política detallada se encargue de esta parte].
+                    </p>
+                </section>
+
+                <section>
+                    <h2 class="text-xl md:text-2xl font-bold text-white mb-3">4. Limitación de Responsabilidad</h2>
+                    <p>
+                        [Cláusula importante: Aquí debes aclarar que OptiFinanzas es una herramienta de gestión y no
+                        proporciona asesoramiento financiero profesional. No te haces responsable por decisiones de
+                        inversión o pérdidas económicas del usuario.]
+                    </p>
+                </section>
+
+                <section>
+                    <h2 class="text-xl md:text-2xl font-bold text-white mb-3">5. Modificaciones de los Términos</h2>
+                    <p>
+                        [Aquí indicas que te reservas el derecho de modificar estos términos en el futuro y cómo
+                        notificarás a los usuarios sobre esos cambios.]
+                    </p>
+                </section>
+
+                <section class="mt-12 pt-8 border-t border-gray-800">
+                    <h2 class="text-xl md:text-2xl font-bold text-white mb-3">6. Contacto</h2>
+                    <p>
+                        Si tiene alguna duda sobre estos Términos y Condiciones, por favor contáctenos a: <a
+                            href="mailto:tu-correo@ejemplo.com"
+                            class="text-opti-green hover:underline">tu-correo@ejemplo.com</a>
+                    </p>
+                </section>
+
+            </div>
+
+        </div>
+    </div>
+
+</section>

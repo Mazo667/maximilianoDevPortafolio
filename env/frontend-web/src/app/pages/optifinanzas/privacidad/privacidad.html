@@ -1,0 +1,140 @@
+<section class="min-h-screen bg-black p-4 md:p-8 font-sans text-gray-300">
+
+    <header class="max-w-4xl mx-auto flex items-center justify-between pb-6 border-b border-gray-800 mb-8 md:mb-12">
+        <a routerLink="/optifinanzas"
+            class="flex items-center gap-2 text-gray-400 hover:text-opti-green transition-colors">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18">
+                </path>
+            </svg>
+            <span class="text-sm font-medium">Volver a OptiFinanzas</span>
+        </a>
+        <div class="flex items-center gap-6">
+            <div class="flex items-center gap-3">
+                <img src="assets/icono_optifinanzas_no_bg.svg" alt="Logo OptiFinanzas" class="h-8 w-8">
+                <span class="text-white text-lg font-bold hidden sm:block">Opti<span
+                        class="text-opti-green">Finanzas</span></span>
+            </div>
+
+            <!-- Selector de lenguajes -->
+            <div class="relative">
+                <button (click)="toggleLangMenu($event)" 
+                    class="flex items-center gap-2 bg-opti-dark-card border border-gray-700 text-white rounded-lg px-3 py-2 hover:border-opti-green transition-colors focus:outline-none focus:ring-2 focus:ring-opti-green shadow-sm">
+                    <span class="text-lg">{{ currentLanguage.flag }}</span>
+                    <span class="hidden sm:inline-block font-medium text-sm">{{ currentLanguage.name }}</span>
+                    <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                
+                @if(isLangMenuOpen) {
+                <div class="absolute right-0 mt-2 w-40 bg-opti-dark-card border border-gray-700 rounded-lg shadow-xl z-50 overflow-hidden" (click)="$event.stopPropagation()">
+                    <ul>
+                        @for(lang of languages; track lang.code) {
+                        <li>
+                            <button (click)="changeLanguage(lang.code)" 
+                                class="w-full text-left px-4 py-3 flex items-center gap-3 hover:bg-gray-800 transition-colors"
+                                [class.text-opti-green]="lang.code === currentLanguage.code"
+                                [class.text-gray-300]="lang.code !== currentLanguage.code">
+                                <span class="text-xl">{{ lang.flag }}</span>
+                                <span class="font-medium text-sm">{{ lang.name }}</span>
+                            </button>
+                        </li>
+                        }
+                    </ul>
+                </div>
+                }
+            </div>
+        </div>
+    </header>
+
+    <div
+        class="max-w-4xl mx-auto bg-opti-dark-card rounded-3xl shadow-2xl overflow-hidden border border-gray-800 mb-12">
+        <div class="p-6 md:p-12 lg:p-16">
+
+            <div class="mb-10 border-b border-gray-800 pb-8">
+                <h1 class="text-3xl md:text-5xl font-extrabold tracking-tight text-white mb-4">
+                    Política de Privacidad
+                </h1>
+                <p class="text-sm text-opti-green font-medium uppercase tracking-widest">
+                    Última actualización: <span class="text-gray-400">Abril de 2026</span>
+                </p>
+            </div>
+
+            <div class="space-y-8 text-base md:text-lg leading-relaxed">
+
+                <p>
+                    En OptiFinanzas, valoramos enormemente su privacidad y nos comprometemos a proteger sus datos
+                    personales y financieros. Esta Política de Privacidad explica cómo recopilamos, utilizamos,
+                    almacenamos y protegemos su información cuando utiliza nuestra aplicación móvil.
+                </p>
+
+                <section>
+                    <h2 class="text-xl md:text-2xl font-bold text-white mb-3">1. Información que recopilamos</h2>
+                    <p class="mb-2">Podemos recopilar los siguientes tipos de información:</p>
+                    <ul class="list-disc list-inside space-y-2 text-gray-400 ml-4">
+                        <li><strong class="text-gray-300">Datos proporcionados por el usuario:</strong> [Ej: Nombre,
+                            correo electrónico al crear una cuenta, montos de ingresos, gastos categorizados, metas
+                            financieras].</li>
+                        <li><strong class="text-gray-300">Datos de uso:</strong> [Ej: Información sobre cómo interactúa
+                            con la aplicación, frecuencia de uso, funciones más utilizadas].</li>
+                        <li><strong class="text-gray-300">Datos del dispositivo:</strong> [Ej: Modelo del dispositivo,
+                            versión del sistema operativo para mejorar la compatibilidad].</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2 class="text-xl md:text-2xl font-bold text-white mb-3">2. Cómo utilizamos su información</h2>
+                    <p>
+                        [Aquí debes explicar que la información financiera se usa EXCLUSIVAMENTE para proveer el
+                        servicio de la app. Por ejemplo: para calcular la regla 50/30/20, generar gráficos de análisis
+                        mensual y mostrar el progreso de sus objetivos financieros. Aclara que no se usa para perfilar
+                        al usuario con fines publicitarios invasivos].
+                    </p>
+                </section>
+
+                <section>
+                    <h2 class="text-xl md:text-2xl font-bold text-white mb-3">3. Almacenamiento y Seguridad de los Datos
+                    </h2>
+                    <p>
+                        [Esta es la parte más importante para Google Play. Debes explicar cómo proteges la base de datos
+                        (por ejemplo, si usas Firebase, si los datos viajan encriptados, o si los datos financieros se
+                        guardan solo localmente en el teléfono del usuario en lugar de en la nube)].
+                    </p>
+                </section>
+
+                <section>
+                    <h2 class="text-xl md:text-2xl font-bold text-white mb-3">4. Compartir información con terceros</h2>
+                    <p>
+                        [Debes aclarar explícitamente si vendes o no los datos a terceros (idealmente, indica que NO
+                        vendes datos financieros a terceros). Menciona si usas servicios de terceros para analíticas,
+                        como Google Analytics para Firebase, o servicios de autenticación].
+                    </p>
+                </section>
+
+                <section>
+                    <h2 class="text-xl md:text-2xl font-bold text-white mb-3">5. Sus derechos (Control de sus datos)
+                    </h2>
+                    <p>
+                        [Google Play exige que los usuarios puedan borrar su cuenta y sus datos desde la app. Explica
+                        aquí que el usuario tiene derecho a solicitar la eliminación de todos sus registros financieros
+                        e historial en cualquier momento].
+                    </p>
+                </section>
+
+                <section class="mt-12 pt-8 border-t border-gray-800">
+                    <h2 class="text-xl md:text-2xl font-bold text-white mb-3">6. Contacto para asuntos de privacidad
+                    </h2>
+                    <p>
+                        Si tiene preguntas, inquietudes o desea ejercer sus derechos sobre sus datos personales, póngase
+                        en contacto con nosotros en: <a href="mailto:privacidad@maximilianodev.com"
+                            class="text-opti-green hover:underline">privacidad@maximilianodev.com</a>
+                    </p>
+                </section>
+
+            </div>
+
+        </div>
+    </div>
+
+</section>
