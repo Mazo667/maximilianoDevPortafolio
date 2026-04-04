@@ -1,6 +1,19 @@
 {
   "OPTIFINANZAS": {
-    "TITLE": "Controla tus Finanzas",
-    "DESCRIPTION": "Organiza tus gastos, planifica tus ahorros y alcanza tus metas con nuestra plataforma."
+    "BADGE_TEXT": "Aplicación Android",
+    "TITLE": "Toma el control absoluto",
+    "DESCRIPTION": "OptiFinanzas es tu gestor financiero inteligente diseñado para ayudarte a optimizar tus ingresos, categorizar tus gastos y planificar tus metas económicas sin complicaciones.",
+    "TERMS": "Ver Términos y Condiciones",
+    "PRIVACY": "Ver Política de Privacidad",
+    "FEATURES_TITLE": "Todo lo que necesitas para tu economía",
+    "RULE_TITLE": "Regla 50/30/20",
+    "RULE_DESC": "Distribuye tus ingresos automáticamente entre necesidades, deseos y ahorro. El balance ideal día a día.",
+    "ANALYSIS_TITLE": "Análisis Mensual",
+    "ANALYSIS_DESC": "Descubre tus mayores fugas de dinero con gráficos claros. Entiende en qué gastas cada peso.",
+    "GOALS_TITLE": "Objetivos y Metas",
+    "GOALS_DESC": "Define para qué estás ahorrando. Ya sea un auto, un viaje o un fondo de emergencia, te ayudamos a llegar.",
+    "TIPS_TITLE": "Tips del Día",
+    "TIPS_DESC": "Recibe consejos diarios y educación financiera en pequeñas píldoras para mejorar tus hábitos económicos.",
+    "FOOTER_COPYRIGHT": "Todos los derechos reservados."
   }
 }

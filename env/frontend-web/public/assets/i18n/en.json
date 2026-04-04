@@ -1,6 +1,19 @@
 {
   "OPTIFINANZAS": {
-    "TITLE": "Control your Finances",
-    "DESCRIPTION": "Organize your expenses, plan your savings, and reach your goals with our platform."
+    "BADGE_TEXT": "Android App",
+    "TITLE": "Take absolute control",
+    "DESCRIPTION": "OptiFinanzas is your smart financial manager designed to help you optimize your income, categorize your expenses, and plan your economic goals effortlessly.",
+    "TERMS": "Terms and Conditions",
+    "PRIVACY": "Privacy Policy",
+    "FEATURES_TITLE": "Everything you need for your economy",
+    "RULE_TITLE": "50/30/20 Rule",
+    "RULE_DESC": "Automatically distribute your income between needs, wants, and savings. The ideal daily balance.",
+    "ANALYSIS_TITLE": "Monthly Analysis",
+    "ANALYSIS_DESC": "Discover your biggest money leaks with clear charts. Understand where every penny goes.",
+    "GOALS_TITLE": "Goals and Objectives",
+    "GOALS_DESC": "Define what you are saving for. Whether it's a car, a trip, or an emergency fund, we help you get there.",
+    "TIPS_TITLE": "Tips of the Day",
+    "TIPS_DESC": "Receive daily advice and financial education in small pills to improve your economic habits.",
+    "FOOTER_COPYRIGHT": "All rights reserved."
   }
 }
