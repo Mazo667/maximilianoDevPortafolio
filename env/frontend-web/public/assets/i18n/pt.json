@@ -2,7 +2,7 @@
   "OPTIFINANZAS": {
     "FINANCES": "Finanças",
     "BADGE_TEXT": "Aplicativo Android",
-    "TITLE": "Assuma o controle absoluto",
+    "TITLE": "Alcance sua liberdade financeira",
     "DESCRIPTION": "OptiFinanzas é o seu gestor financeiro inteligente projetado para ajudá-lo a otimizar sua renda, categorizar suas despesas e planejar suas metas econômicas sem complicações.",
     "TERMS": "Termos e Condições",
     "PRIVACY": "Política de Privacidade",
@@ -31,7 +31,7 @@
         "P2": "O Aplicativo não coleta informações precisas sobre a localização do seu dispositivo móvel.",
         "P3": "O Aplicativo não utiliza tecnologias de Inteligência Artificial (IA) para processar seus dados ou fornecer recursos.",
         "P4": "O Provedor de Serviços pode usar as informações fornecidas para contatá-lo de tempos em tempos com o objetivo de fornecer informações importantes, avisos necessários e promoções de marketing.",
-        "P5": "Para uma melhor experiência, ao usar o Aplicativo, o Provedor de Serviços pode solicitar que você forneça certas informações de identificação pessoal. As informações solicitadas serão retidas e usadas conforme descrito nesta política de privacidade."
+        "P5": "Para uma melhor experiência, o Aplicativo pode exigir certas informações gerais. No entanto, o OptiFinanzas armazena seus dados financeiros (saldos, despesas, receitas) exclusivamente de forma local no seu dispositivo. O desenvolvedor não tem nenhum tipo de acesso a eles."
       },
       "THIRD_PARTY": {
         "TITLE": "Acesso de Terceiros",
@@ -48,7 +48,18 @@
       },
       "RETENTION": {
         "TITLE": "Política de Retenção de Dados",
-        "P1": "O Provedor de Serviços reterá os dados fornecidos pelo usuário enquanto você usar o Aplicativo e por um tempo razoável depois disso. Se desejar que os Dados Fornecidos pelo Usuário sejam excluídos, entre em contato através do e-mail e eles responderão em um tempo razoável."
+        "P1": "Como seus dados financeiros são armazenados exclusivamente de forma local em seu dispositivo móvel, o Provedor de Serviços não retém ou armazena essas informações em nenhum servidor externo. Seus registros permanecerão em seu telefone enquanto você usar o Aplicativo e serão excluídos permanentemente quando você decidir limpar os dados do aplicativo ou desinstalá-lo."
+      },
+      "DATA_DELETION": {
+        "TITLE": "Exclusão de Dados",
+        "P1": "No OptiFinanzas, valorizamos sua privacidade e damos a você controle total sobre suas informações. Abaixo, explicamos como você pode excluir seus dados:",
+        "L1_TITLE": "Dados Locais (Financeiros):",
+        "L1_DESC": "Todos os seus registros são armazenados localmente no seu dispositivo. Para excluí-los permanentemente, basta desinstalar o aplicativo ou ir em Configurações do dispositivo > Aplicativos > OptiFinanzas > Armazenamento e selecionar 'Limpar dados'.",
+        "L2_TITLE": "Dados de Terceiros (Publicidade e Compras):",
+        "L2_DESC": "Os dados técnicos coletados pelo Google AdMob ou Google Play são gerenciados diretamente pelo Google. Você pode solicitar sua exclusão por meio das configurações da sua conta do Google ou redefinindo seu ID de publicidade no seu dispositivo.",
+        "L3_TITLE": "Solicitação Direta:",
+        "L3_DESC": "Como não armazenamos seus dados em nossos próprios servidores, a exclusão é gerenciada por você. Se você tiver alguma dúvida sobre este processo, pode nos contatar em",
+        "P2": "Observe que os dados financeiros são excluídos imediata e permanentemente ao remover o aplicativo do dispositivo, pois não mantemos backups em servidores externos."
       },
       "CHILDREN": {
         "TITLE": "Privacidade Infantil",
@@ -80,12 +91,12 @@
       "P2": "Ao baixar ou utilizar o Aplicativo, você concorda automaticamente com os seguintes termos. É altamente recomendável que você leia atentamente e entenda estes termos antes de usar o Aplicativo.",
       "RESTRICTIONS": "A cópia ou modificação não autorizada do Aplicativo, qualquer parte do Aplicativo ou nossas marcas registradas é estritamente proibida. Quaisquer tentativas de extrair o código-fonte do Aplicativo, traduzir o Aplicativo para outros idiomas ou criar versões derivadas não são permitidas. Todas as marcas comerciais, direitos autorais, direitos de banco de dados e outros direitos de propriedade intelectual relacionados ao Aplicativo permanecem propriedade do Provedor de Serviços.",
       "MODIFICATIONS": "O Provedor de Serviços dedica-se a garantir que o Aplicativo seja o mais benéfico e eficiente possível. Como tal, eles se reservam o direito de modificar o Aplicativo ou cobrar por seus serviços a qualquer momento e por qualquer motivo. O Provedor de Serviços garante que quaisquer cobranças pelo Aplicativo ou seus serviços serão claramente comunicadas a você.",
-      "SECURITY": "O Aplicativo armazena e processa dados pessoais que você forneceu ao Provedor de Serviços a fim de fornecer o Serviço. É sua responsabilidade manter a segurança do seu telefone e o acesso ao Aplicativo. O Provedor de Serviços desaconselha fortemente o jailbreak ou root no seu telefone, o que envolve remover restrições e limitações de software impostas pelo sistema operacional oficial do seu dispositivo. Tais ações podem expor seu telefone a malwares, vírus, programas maliciosos, comprometer os recursos de segurança do seu telefone e podem resultar no mau funcionamento do Aplicativo ou na sua parada total.",
+      "SECURITY": "O Aplicativo armazena e processa os dados financeiros que você insere exclusivamente de forma local em seu dispositivo. O Provedor de Serviços não tem acesso a essas informações. É sua responsabilidade manter a segurança do seu telefone e o acesso ao Aplicativo. O Provedor de Serviços desaconselha fortemente fazer o jailbreak ou root no seu telefone (remover as restrições e limitações de software impostas pelo sistema operacional oficial do seu dispositivo). Tais ações podem expor seu telefone a malwares, comprometer seus recursos de segurança e fazer com que o Aplicativo não funcione corretamente.",
       "THIRD_PARTY_INTRO": "Observe que o Aplicativo utiliza serviços de terceiros que possuem seus próprios Termos e Condições. Abaixo estão os links para os Termos e Condições dos provedores de serviços terceirizados usados pelo Aplicativo:",
       "CONNECTIVITY": "Esteja ciente de que o Provedor de Serviços não assume responsabilidade por certos aspectos. Algumas funções do Aplicativo exigem uma conexão ativa com a internet, que pode ser Wi-Fi ou fornecida pelo seu provedor de rede móvel. O Provedor de Serviços não pode ser responsabilizado se o Aplicativo não funcionar em sua capacidade total devido à falta de acesso ao Wi-Fi ou se você esgotou sua franquia de dados.",
       "CHARGES": "Se você estiver usando o aplicativo fora de uma área Wi-Fi, lembre-se de que os termos do seu provedor de rede móvel ainda se aplicam. Consequentemente, você pode incorrer em cobranças da sua operadora de celular pelo uso de dados durante a conexão com o aplicativo ou outras cobranças de terceiros. Ao usar o aplicativo, você aceita a responsabilidade por tais cobranças, incluindo cobranças de dados em roaming se usar o aplicativo fora do seu território de origem sem desativar o roaming de dados. Se você não for o responsável pelo pagamento da fatura do dispositivo no qual está usando o aplicativo, eles presumem que você obteve permissão do responsável pelo pagamento.",
       "BATTERY": "Da mesma forma, o Provedor de Serviços nem sempre pode assumir a responsabilidade pelo uso do aplicativo. Por exemplo, é sua responsabilidade garantir que seu dispositivo permaneça carregado. Se o seu dispositivo ficar sem bateria e você não conseguir acessar o Serviço, o Provedor de Serviços não poderá ser responsabilizado.",
-      "LIABILITY": "Em termos da responsabilidade do Provedor de Serviços pelo uso do aplicativo, é importante observar que, embora eles se esforcem para garantir que ele seja atualizado e preciso em todos os momentos, eles dependem de terceiros para fornecer informações para que possam disponibilizá-las para você. O Provedor de Serviços não aceita qualquer responsabilidade por qualquer perda, direta ou indireta, que você experimente como resultado de confiar inteiramente nesta funcionalidade do aplicativo.",
+      "LIABILITY": "OptiFinanzas é uma ferramenta projetada estritamente para ajudar você a organizar suas finanças pessoais e não constitui aconselhamento financeiro, contábil ou de investimento. O Provedor de Serviços não assume responsabilidade por decisões econômicas tomadas com base nos cálculos ou gráficos do aplicativo, nem por qualquer perda, direta ou indireta, que você possa sofrer como resultado de confiar nesta funcionalidade. Você é o único responsável pela precisão dos dados que insere localmente.",
       "UPDATES": "O Provedor de Serviços pode desejar atualizar o aplicativo em algum momento. O aplicativo está atualmente disponível de acordo com os requisitos do sistema operacional (e para quaisquer sistemas adicionais aos quais eles decidam estender a disponibilidade do aplicativo) que podem mudar, e você precisará baixar as atualizações se quiser continuar usando o aplicativo. O Provedor de Serviços não garante que sempre atualizará o aplicativo para que seja relevante para você e/ou compatível com a versão específica do sistema operacional instalada em seu dispositivo. No entanto, você concorda em sempre aceitar atualizações do aplicativo quando oferecidas a você. O Provedor de Serviços também pode desejar parar de fornecer o aplicativo e pode encerrar seu uso a qualquer momento sem fornecer aviso de rescisão a você. A menos que eles o informem de outra forma, após qualquer rescisão, (a) os direitos e licenças concedidos a você nestes termos terminarão; (b) você deve parar de usar o aplicativo e (se necessário) excluí-lo do seu dispositivo.",
       "CHANGES_TITLE": "Alterações nestes Termos e Condições",
       "CHANGES_TEXT": "O Provedor de Serviços pode atualizar periodicamente seus Termos e Condições. Portanto, é aconselhável revisar esta página regularmente para quaisquer alterações. O Provedor de Serviços o notificará sobre quaisquer alterações publicando os novos Termos e Condições nesta página.",

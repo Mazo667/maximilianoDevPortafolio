@@ -2,7 +2,7 @@
   "OPTIFINANZAS": {
     "FINANCES": "Finances",
     "BADGE_TEXT": "Android App",
-    "TITLE": "Take absolute control",
+    "TITLE": "Achieve your financial freedom",
     "DESCRIPTION": "OptiFinanzas is your smart financial manager designed to help you optimize your income, categorize your expenses, and plan your economic goals effortlessly.",
     "TERMS": "Terms and Conditions",
     "PRIVACY": "Privacy Policy",
@@ -31,7 +31,7 @@
         "P2": "The Application does not gather precise information about the location of your mobile device.",
         "P3": "The Application does not use Artificial Intelligence (AI) technologies to process your data or provide features.",
         "P4": "The Service Provider may use the information you provided to contact you from time to time to provide you with important information, required notices and marketing promotions.",
-        "P5": "For a better experience, while using the Application, the Service Provider may require you to provide us with certain personally identifiable information. The information that the Service Provider request will be retained by them and used as described in this privacy policy."
+        "P5": "For a better experience, the Application may require certain general information. However, OptiFinanzas stores your financial data (balances, expenses, income) exclusively locally on your device. The developer has no access to them whatsoever."
       },
       "THIRD_PARTY": {
         "TITLE": "Third Party Access",
@@ -48,7 +48,18 @@
       },
       "RETENTION": {
         "TITLE": "Data Retention Policy",
-        "P1": "The Service Provider will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. If you'd like them to delete User Provided Data that you have provided via the Application, please contact them via email and they will respond in a reasonable time."
+        "P1": "Since your financial data is stored exclusively locally on your mobile device, the Service Provider does not retain or store this information on any external server. Your records will remain on your phone for as long as you use the Application and will be permanently deleted when you choose to clear the app's data or uninstall it."
+      },
+      "DATA_DELETION": {
+        "TITLE": "Data Deletion",
+        "P1": "At OptiFinanzas, we value your privacy and give you full control over your information. Below, we explain how you can delete your data:",
+        "L1_TITLE": "Local Data (Financial):",
+        "L1_DESC": "All your records are stored locally on your device. To permanently delete them, simply uninstall the application or go to your device Settings > Apps > OptiFinanzas > Storage and select 'Clear data'.",
+        "L2_TITLE": "Third-Party Data (Advertising and Purchases):",
+        "L2_DESC": "Technical data collected by Google AdMob or Google Play is managed directly by Google. You can request its deletion through your Google account settings or by resetting your advertising ID on your device.",
+        "L3_TITLE": "Direct Request:",
+        "L3_DESC": "Since we do not store your data on our own servers, deletion is managed by you. If you have any questions about this process, you can contact us at",
+        "P2": "Please note that financial data is immediately and permanently deleted when you remove the application from your device, as we do not keep backups on external servers."
       },
       "CHILDREN": {
         "TITLE": "Children",
@@ -76,16 +87,16 @@
       "BACK": "Back to OptiFinanzas",
       "TITLE": "Terms & Conditions",
       "EFFECTIVE_DATE": "Effective as of 2026-04-04",
-      "P1": "These terms and conditions apply to the OptiFinances app (hereby referred to as \"Application\") for mobile devices that was created by Maximiliano Ariel Fava (hereby referred to as \"Service Provider\") as an Ad Supported service.",
+      "P1": "These terms and conditions apply to the OptiFinanzas app (hereby referred to as \"Application\") for mobile devices that was created by Maximiliano Ariel Fava (hereby referred to as \"Service Provider\") as an Ad Supported service.",
       "P2": "Upon downloading or utilizing the Application, you are automatically agreeing to the following terms. It is strongly advised that you thoroughly read and understand these terms prior to using the Application.",
       "RESTRICTIONS": "Unauthorized copying, modification of the Application, any part of the Application, or our trademarks is strictly prohibited. Any attempts to extract the source code of the Application, translate the Application into other languages, or create derivative versions are not permitted. All trademarks, copyrights, database rights, and other intellectual property rights related to the Application remain the property of the Service Provider.",
       "MODIFICATIONS": "The Service Provider is dedicated to ensuring that the Application is as beneficial and efficient as possible. As such, they reserve the right to modify the Application or charge for their services at any time and for any reason. The Service Provider assures you that any charges for the Application or its services will be clearly communicated to you.",
-      "SECURITY": "The Application stores and processes personal data that you have provided to the Service Provider in order to provide the Service. It is your responsibility to maintain the security of your phone and access to the Application. The Service Provider strongly advise against jailbreaking or rooting your phone, which involves removing software restrictions and limitations imposed by the official operating system of your device. Such actions could expose your phone to malware, viruses, malicious programs, compromise your phone's security features, and may result in the Application not functioning correctly or at all.",
+      "SECURITY": "The Application stores and processes the financial data you enter exclusively locally on your device. The Service Provider does not have access to this information. It is your responsibility to maintain the security of your phone and access to the Application. The Service Provider strongly advises against jailbreaking or rooting your phone (removing software restrictions and limitations imposed by the official operating system of your device). Such actions could expose your phone to malware, compromise its security features, and cause the Application to not function correctly.",
       "THIRD_PARTY_INTRO": "Please note that the Application utilizes third-party services that have their own Terms and Conditions. Below are the links to the Terms and Conditions of the third-party service providers used by the Application:",
       "CONNECTIVITY": "Please be aware that the Service Provider does not assume responsibility for certain aspects. Some functions of the Application require an active internet connection, which can be Wi-Fi or provided by your mobile network provider. The Service Provider cannot be held responsible if the Application does not function at full capacity due to lack of access to Wi-Fi or if you have exhausted your data allowance.",
       "CHARGES": "If you are using the application outside of a Wi-Fi area, please be aware that your mobile network provider's agreement terms still apply. Consequently, you may incur charges from your mobile provider for data usage during the connection to the application, or other third-party charges. By using the application, you accept responsibility for any such charges, including roaming data charges if you use the application outside of your home territory (i.e., region or country) without disabling data roaming. If you are not the bill payer for the device on which you are using the application, they assume that you have obtained permission from the bill payer.",
       "BATTERY": "Similarly, the Service Provider cannot always assume responsibility for your usage of the application. For instance, it is your responsibility to ensure that your device remains charged. If your device runs out of battery and you are unable to access the Service, the Service Provider cannot be held responsible.",
-      "LIABILITY": "In terms of the Service Provider's responsibility for your use of the application, it is important to note that while they strive to ensure that it is updated and accurate at all times, they do rely on third parties to provide information to them so that they can make it available to you. The Service Provider accepts no liability for any loss, direct or indirect, that you experience as a result of relying entirely on this functionality of the application.",
+      "LIABILITY": "OptiFinanzas is a tool designed strictly to help you organize your personal finances and does not constitute financial, accounting, or investment advice. The Service Provider assumes no responsibility for economic decisions made based on the application's calculations or graphs, nor for any loss, direct or indirect, that you may experience as a result of relying on this functionality. You are solely responsible for the accuracy of the data you enter locally.",
       "UPDATES": "The Service Provider may wish to update the application at some point. The application is currently available as per the requirements for the operating system (and for any additional systems they decide to extend the availability of the application to) may change, and you will need to download the updates if you want to continue using the application. The Service Provider does not guarantee that it will always update the application so that it is relevant to you and/or compatible with the particular operating system version installed on your device. However, you agree to always accept updates to the application when offered to you. The Service Provider may also wish to cease providing the application and may terminate its use at any time without providing termination notice to you. Unless they inform you otherwise, upon any termination, (a) the rights and licenses granted to you in these terms will end; (b) you must cease using the application, and (if necessary) delete it from your device.",
       "CHANGES_TITLE": "Changes to These Terms and Conditions",
       "CHANGES_TEXT": "The Service Provider may periodically update their Terms and Conditions. Therefore, you are advised to review this page regularly for any changes. The Service Provider will notify you of any changes by posting the new Terms and Conditions on this page.",
