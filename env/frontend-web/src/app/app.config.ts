@@ -1,39 +1,37 @@
-import { ApplicationConfig, importProvidersFrom } from '@angular/core';
+import { ApplicationConfig, Injectable, PendingTasks, inject } from '@angular/core';
 import { provideRouter } from '@angular/router';
 import { routes } from './app.routes';
 
-import { HttpClient, provideHttpClient, withFetch } from '@angular/common/http';
-import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+import { TranslateLoader, TranslationObject, provideTranslateLoader, provideTranslateService } from '@ngx-translate/core';
+import { from } from 'rxjs';
+import { DEFAULT_LANGUAGE } from './shared/language.service';
 
-// 1. Creamos nuestro propio Loader nativo (Reemplaza a la librería conflictiva)
-export class CustomTranslateLoader implements TranslateLoader {
-  constructor(private http: HttpClient) { }
+// Cada idioma se empaqueta como un archivo JS con hash en el nombre (se descarga solo cuando se usa).
+// Así, al publicar una versión nueva el navegador nunca usa traducciones viejas de su caché.
+const TRANSLATIONS: Record<string, () => Promise<{ default: TranslationObject }>> = {
+  es: () => import('../i18n/es.json'),
+  en: () => import('../i18n/en.json'),
+  pt: () => import('../i18n/pt.json'),
+};
+
+@Injectable()
+export class BundledTranslateLoader implements TranslateLoader {
+  private pendingTasks = inject(PendingTasks);
 
   getTranslation(lang: string) {
-    // Busca el archivo JSON correspondiente al idioma
-    return this.http.get<any>(`/assets/i18n/${lang}.json`);
+    const load = TRANSLATIONS[lang] ?? TRANSLATIONS[DEFAULT_LANGUAGE];
+    // PendingTasks hace que el prerender espere a que carguen los textos antes de generar el HTML
+    const done = this.pendingTasks.add();
+    return from(load().then(module => module.default).finally(done));
   }
 }
 
-// 2. Factoría que inyecta el HttpClient
-export function HttpLoaderFactory(http: HttpClient) {
-  return new CustomTranslateLoader(http);
-}
-
-// 3. Configuración principal
 export const appConfig: ApplicationConfig = {
   providers: [
     provideRouter(routes),
-    provideHttpClient(withFetch()), // Requerido para SSR
-    importProvidersFrom(
-      TranslateModule.forRoot({
-        defaultLanguage: 'es',
-        loader: {
-          provide: TranslateLoader,
-          useFactory: HttpLoaderFactory,
-          deps: [HttpClient]
-        }
-      })
-    )
+    provideTranslateService({
+      fallbackLang: DEFAULT_LANGUAGE,
+      loader: provideTranslateLoader(BundledTranslateLoader),
+    }),
   ]
 };

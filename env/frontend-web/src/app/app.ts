@@ -1,19 +1,17 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { TranslateModule, TranslateService } from '@ngx-translate/core'; 
+import { LanguageService } from './shared/language.service';
+import { SeoService } from './shared/seo.service';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, TranslateModule], 
+  imports: [RouterOutlet],
   templateUrl: './app.html',
 })
 export class AppComponent {
-  title = 'frontend-web';
-
-  constructor(private translate: TranslateService) {
-    this.translate.addLangs(['es', 'en']);
-    this.translate.setDefaultLang('es');
-    this.translate.use('es');
+  constructor() {
+    inject(LanguageService).init();
+    inject(SeoService).init();
   }
 }

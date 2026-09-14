@@ -1,0 +1,369 @@
+{
+  "HOME": {
+    "HERO": {
+      "LOCATION": "Rawson, Chubut | Open to new challenges",
+      "GREETING": "Hi, I'm",
+      "ROLE": "University Software Development Technician.",
+      "INTRO": "I'm passionate about building end-to-end tech solutions, combining modern interfaces with robust backend and mobile architectures.",
+      "CTA_BUSINESS": "Digitize my business",
+      "CTA_CV": "Download CV"
+    },
+    "SKILLS": {
+      "MOBILE": "Mobile",
+      "OTHER": "Other",
+      "OTHER_DESC": "SVG design, AI"
+    },
+    "SERVICES": {
+      "TITLE": "Take your physical business digital today",
+      "SUBTITLE": "Custom tech solutions for shops, offices and entrepreneurs. No technical hassle for you.",
+      "S1_TITLE": "1. Custom Development",
+      "S1_DESC": "I analyze and build the exact system your operation needs (inventory, appointments, sales). One-time payment for the initial development of your platform.",
+      "BADGE": "All Inclusive",
+      "S2_TITLE": "2. Domain and Launch",
+      "S2_DESC": "I deliver your site fully working with your own professional domain (your-business.com), registered exclusively for your brand.",
+      "S3_TITLE": "3. Ongoing Maintenance",
+      "S3_DESC": "A fixed fee (monthly or yearly) covering hosting on ultra-fast servers, database backups and technical support.",
+      "CTA": "Book a free consultation"
+    },
+    "PROJECTS": {
+      "TITLE": "Featured Projects",
+      "SUBTITLE": "A selection of my most recent work, from native mobile apps to management systems and backend.",
+      "DETAILS": "View details",
+      "OPTISCAN": {
+        "CATEGORY": "Productivity",
+        "DESCRIPTION": "Camera document scanner: automatic cropping, curved page flattening, filters, OCR and export to PDF or JPEG."
+      },
+      "OPTIFINANZAS": {
+        "CATEGORY": "Finance",
+        "DESCRIPTION": "Smart financial manager designed to help you optimize your income and apply the 50/30/20 rule every day."
+      },
+      "OPTISTOCK": {
+        "CATEGORY": "Management",
+        "DESCRIPTION": "Advanced inventory and stock control system to optimize the supply chain."
+      }
+    },
+    "CONTACT": {
+      "TITLE": "Shall we work together?",
+      "SUBTITLE": "Whether it's digitizing your business, a custom project or a job opportunity, I'd love to talk about how I can add value.",
+      "EMAIL": "Send me an email"
+    },
+    "FOOTER": {
+      "LEGAL": "App legal documents",
+      "PRIVACY": "Privacy",
+      "TERMS": "Terms",
+      "RIGHTS": "All rights reserved.",
+      "BUILT_WITH": "Built with",
+      "AND": "and"
+    }
+  },
+  "SEO": {
+    "HOME": {
+      "TITLE": "Maximiliano Fava | Software Developer",
+      "DESCRIPTION": "Portfolio of Maximiliano Fava, University Software Development Technician. Android apps, custom web systems with Angular and Django, and business digitization."
+    },
+    "OPTIFINANZAS": {
+      "TITLE": "OptiFinanzas | Personal finance manager for Android",
+      "DESCRIPTION": "Organize your income and expenses with the 50/30/20 rule, monthly analysis, savings goals and daily tips. Get OptiFinanzas for free on Google Play."
+    },
+    "OPTIFINANZAS_TERMS": {
+      "TITLE": "Terms and Conditions | OptiFinanzas",
+      "DESCRIPTION": "Terms and conditions of use for the OptiFinanzas Android app."
+    },
+    "OPTIFINANZAS_PRIVACY": {
+      "TITLE": "Privacy Policy | OptiFinanzas",
+      "DESCRIPTION": "How OptiFinanzas handles your information: financial data stored only on your device, AdMob advertising and data deletion."
+    },
+    "OPTISCAN": {
+      "TITLE": "OptiScan | Document scanner for Android",
+      "DESCRIPTION": "Scan documents with your camera: automatic cropping, page flattening, filters, OCR and export to PDF or JPEG. Your documents stay on your phone."
+    },
+    "OPTISCAN_TERMS": {
+      "TITLE": "Terms and Conditions | OptiScan",
+      "DESCRIPTION": "Terms and conditions of use for OptiScan, including the OptiScan Pro subscription."
+    },
+    "OPTISCAN_PRIVACY": {
+      "TITLE": "Privacy Policy | OptiScan",
+      "DESCRIPTION": "How OptiScan handles your information: documents stored only on your device, on-device OCR, AdMob advertising and Google Play subscriptions."
+    }
+  },
+  "OPTIFINANZAS": {
+    "FINANCES": "Finances",
+    "BADGE_TEXT": "Android App",
+    "TITLE": "Achieve your financial freedom",
+    "DESCRIPTION": "OptiFinanzas is your smart financial manager designed to help you optimize your income, categorize your expenses, and plan your economic goals effortlessly.",
+    "PLAY_ALT": "Get it on Google Play",
+    "TERMS": "Terms and Conditions",
+    "PRIVACY": "Privacy Policy",
+    "FEATURES_TITLE": "Everything you need for your economy",
+    "RULE_TITLE": "50/30/20 Rule",
+    "RULE_DESC": "Automatically distribute your income between needs, wants, and savings. The ideal daily balance.",
+    "ANALYSIS_TITLE": "Monthly Analysis",
+    "ANALYSIS_DESC": "Discover your biggest money leaks with clear charts. Understand where every penny goes.",
+    "GOALS_TITLE": "Goals and Objectives",
+    "GOALS_DESC": "Define what you are saving for. Whether it's a car, a trip, or an emergency fund, we help you get there.",
+    "TIPS_TITLE": "Tips of the Day",
+    "TIPS_DESC": "Receive daily advice and financial education in small pills to improve your economic habits.",
+    "FOOTER_COPYRIGHT": "All rights reserved.",
+    "LEGAL_BACK": "Back to OptiFinanzas",
+    "PRIVACY_POLICY": {
+      "TITLE": "Privacy Policy",
+      "EFFECTIVE_DATE": "Effective as of 2026-04-04",
+      "INTRO": "This privacy policy applies to the OptiFinanzas app (hereby referred to as \"Application\") for mobile devices that was created by Maximiliano Ariel Fava (hereby referred to as \"Service Provider\") as an Ad Supported service. This service is intended for use \"AS IS\".",
+      "COLLECTION": {
+        "TITLE": "Information Collection and Use",
+        "P1": "The Application collects information when you download and use it. This information may include information such as:",
+        "L1": "Your device's Internet Protocol address (e.g. IP address)",
+        "L2": "The pages of the Application that you visit, the time and date of your visit, the time spent on those pages",
+        "L3": "The time spent on the Application",
+        "L4": "The operating system you use on your mobile device",
+        "P2": "The Application does not gather precise information about the location of your mobile device.",
+        "P3": "The Application does not use Artificial Intelligence (AI) technologies to process your data or provide features.",
+        "P4": "The Service Provider may use the information you provided to contact you from time to time to provide you with important information, required notices and marketing promotions.",
+        "P5": "For a better experience, the Application may require certain general information. However, OptiFinanzas stores your financial data (balances, expenses, income) exclusively locally on your device. The developer has no access to them whatsoever."
+      },
+      "THIRD_PARTY": {
+        "TITLE": "Third Party Access",
+        "P1": "Only aggregated, anonymized data is periodically transmitted to external services to aid the Service Provider in improving the Application and their service. The Service Provider may share your information with third parties in the ways that are described in this privacy statement.",
+        "P2": "Please note that the Application utilizes third-party services that have their own Privacy Policy about handling data. Below are the links to the Privacy Policy of the third-party service providers used by the Application:",
+        "P3": "The Service Provider may disclose User Provided and Automatically Collected Information:",
+        "L1": "as required by law, such as to comply with a subpoena, or similar legal process;",
+        "L2": "when they believe in good faith that disclosure is necessary to protect their rights, protect your safety or the safety of others, investigate fraud, or respond to a government request;",
+        "L3": "with their trusted services providers who work on their behalf, do not have an independent use of the information we disclose to them, and have agreed to adhere to the rules set forth in this privacy statement."
+      },
+      "OPT_OUT": {
+        "TITLE": "Opt-Out Rights",
+        "P1": "You can stop all collection of information by the Application easily by uninstalling it. You may use the standard uninstall processes as may be available as part of your mobile device or via the mobile application marketplace or network."
+      },
+      "RETENTION": {
+        "TITLE": "Data Retention Policy",
+        "P1": "Since your financial data is stored exclusively locally on your mobile device, the Service Provider does not retain or store this information on any external server. Your records will remain on your phone for as long as you use the Application and will be permanently deleted when you choose to clear the app's data or uninstall it."
+      },
+      "DATA_DELETION": {
+        "TITLE": "Data Deletion",
+        "P1": "At OptiFinanzas, we value your privacy and give you full control over your information. Below, we explain how you can delete your data:",
+        "L1_TITLE": "Local Data (Financial):",
+        "L1_DESC": "All your records are stored locally on your device. To permanently delete them, simply uninstall the application or go to your device Settings > Apps > OptiFinanzas > Storage and select 'Clear data'.",
+        "L2_TITLE": "Third-Party Data (Advertising and Purchases):",
+        "L2_DESC": "Technical data collected by Google AdMob or Google Play is managed directly by Google. You can request its deletion through your Google account settings or by resetting your advertising ID on your device.",
+        "L3_TITLE": "Direct Request:",
+        "L3_DESC": "Since we do not store your data on our own servers, deletion is managed by you. If you have any questions about this process, you can contact us at",
+        "P2": "Please note that financial data is immediately and permanently deleted when you remove the application from your device, as we do not keep backups on external servers."
+      },
+      "CHILDREN": {
+        "TITLE": "Children",
+        "P1": "The Service Provider does not use the Application to knowingly solicit data from or market to children under the age of 13.",
+        "P2": "The Application does not address anyone under the age of 13. The Service Provider does not knowingly collect personally identifiable information from children under 13 years of age. In the case the Service Provider discover that a child under 13 has provided personal information, the Service Provider will immediately delete this from their servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact the Service Provider so that they will be able to take the necessary actions."
+      },
+      "SECURITY": {
+        "TITLE": "Security",
+        "P1": "The Service Provider is concerned about safeguarding the confidentiality of your information. The Service Provider provides physical, electronic, and procedural safeguards to protect information the Service Provider processes and maintains."
+      },
+      "CHANGES": {
+        "TITLE": "Changes",
+        "P1": "This Privacy Policy may be updated from time to time for any reason. The Service Provider will notify you of any changes to the Privacy Policy by updating this page with the new Privacy Policy. You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes."
+      },
+      "CONSENT": {
+        "TITLE": "Your Consent",
+        "P1": "By using the Application, you are consenting to the processing of your information as set forth in this Privacy Policy now and as amended by us."
+      },
+      "CONTACT": {
+        "TITLE": "Contact Us",
+        "P1": "If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the Service Provider via email at"
+      }
+    },
+    "TERMS_CONDITIONS": {
+      "TITLE": "Terms & Conditions",
+      "EFFECTIVE_DATE": "Effective as of 2026-04-04",
+      "P1": "These terms and conditions apply to the OptiFinanzas app (hereby referred to as \"Application\") for mobile devices that was created by Maximiliano Ariel Fava (hereby referred to as \"Service Provider\") as an Ad Supported service.",
+      "P2": "Upon downloading or utilizing the Application, you are automatically agreeing to the following terms. It is strongly advised that you thoroughly read and understand these terms prior to using the Application.",
+      "RESTRICTIONS": "Unauthorized copying, modification of the Application, any part of the Application, or our trademarks is strictly prohibited. Any attempts to extract the source code of the Application, translate the Application into other languages, or create derivative versions are not permitted. All trademarks, copyrights, database rights, and other intellectual property rights related to the Application remain the property of the Service Provider.",
+      "MODIFICATIONS": "The Service Provider is dedicated to ensuring that the Application is as beneficial and efficient as possible. As such, they reserve the right to modify the Application or charge for their services at any time and for any reason. The Service Provider assures you that any charges for the Application or its services will be clearly communicated to you.",
+      "SECURITY": "The Application stores and processes the financial data you enter exclusively locally on your device. The Service Provider does not have access to this information. It is your responsibility to maintain the security of your phone and access to the Application. The Service Provider strongly advises against jailbreaking or rooting your phone (removing software restrictions and limitations imposed by the official operating system of your device). Such actions could expose your phone to malware, compromise its security features, and cause the Application to not function correctly.",
+      "THIRD_PARTY_INTRO": "Please note that the Application utilizes third-party services that have their own Terms and Conditions. Below are the links to the Terms and Conditions of the third-party service providers used by the Application:",
+      "CONNECTIVITY": "Please be aware that the Service Provider does not assume responsibility for certain aspects. Some functions of the Application require an active internet connection, which can be Wi-Fi or provided by your mobile network provider. The Service Provider cannot be held responsible if the Application does not function at full capacity due to lack of access to Wi-Fi or if you have exhausted your data allowance.",
+      "CHARGES": "If you are using the application outside of a Wi-Fi area, please be aware that your mobile network provider's agreement terms still apply. Consequently, you may incur charges from your mobile provider for data usage during the connection to the application, or other third-party charges. By using the application, you accept responsibility for any such charges, including roaming data charges if you use the application outside of your home territory (i.e., region or country) without disabling data roaming. If you are not the bill payer for the device on which you are using the application, they assume that you have obtained permission from the bill payer.",
+      "BATTERY": "Similarly, the Service Provider cannot always assume responsibility for your usage of the application. For instance, it is your responsibility to ensure that your device remains charged. If your device runs out of battery and you are unable to access the Service, the Service Provider cannot be held responsible.",
+      "LIABILITY": "OptiFinanzas is a tool designed strictly to help you organize your personal finances and does not constitute financial, accounting, or investment advice. The Service Provider assumes no responsibility for economic decisions made based on the application's calculations or graphs, nor for any loss, direct or indirect, that you may experience as a result of relying on this functionality. You are solely responsible for the accuracy of the data you enter locally.",
+      "UPDATES": "The Service Provider may wish to update the application at some point. The application is currently available as per the requirements for the operating system (and for any additional systems they decide to extend the availability of the application to) may change, and you will need to download the updates if you want to continue using the application. The Service Provider does not guarantee that it will always update the application so that it is relevant to you and/or compatible with the particular operating system version installed on your device. However, you agree to always accept updates to the application when offered to you. The Service Provider may also wish to cease providing the application and may terminate its use at any time without providing termination notice to you. Unless they inform you otherwise, upon any termination, (a) the rights and licenses granted to you in these terms will end; (b) you must cease using the application, and (if necessary) delete it from your device.",
+      "CHANGES": {
+        "TITLE": "Changes to These Terms and Conditions",
+        "P1": "The Service Provider may periodically update their Terms and Conditions. Therefore, you are advised to review this page regularly for any changes. The Service Provider will notify you of any changes by posting the new Terms and Conditions on this page."
+      },
+      "CONTACT": {
+        "TITLE": "Contact Us",
+        "P1": "If you have any questions or suggestions about the Terms and Conditions, please do not hesitate to contact the Service Provider at"
+      }
+    }
+  },
+  "OPTISCAN": {
+    "BADGE_TEXT": "Android App · Document scanner",
+    "TITLE": "Your documents, scanned in seconds",
+    "DESCRIPTION": "OptiScan turns your phone camera into a professional scanner: it detects edges, corrects perspective, flattens folded pages, removes shadows and exports your documents as PDF or JPEG, ready to share.",
+    "PLAY_ALT": "Get it on Google Play",
+    "TERMS": "View Terms and Conditions",
+    "PRIVACY": "View Privacy Policy",
+    "FEATURES_TITLE": "Everything you need to go paperless",
+    "FEATURES": {
+      "CAMERA_TITLE": "Multi-page camera",
+      "CAMERA_DESC": "Scan several pages in a row with flash, torch, grid and A4 guide, or import photos from your gallery.",
+      "CROP_TITLE": "Smart cropping",
+      "CROP_DESC": "Automatic edge detection and 4 adjustable corners with a magnifier to correct perspective precisely.",
+      "FLATTEN_TITLE": "Flatten and remove shadows",
+      "FLATTEN_DESC": "Straighten folded or curved pages and remove shadows from uneven lighting for a clean result.",
+      "FILTERS_TITLE": "Reading filters",
+      "FILTERS_DESC": "Magic Color, B&W Contrast or Soft Gray. What you see in the preview is exactly what gets saved.",
+      "EXPORT_TITLE": "Export to PDF or JPEG",
+      "EXPORT_DESC": "Choose the quality, share through your favorite apps, save to Files or your gallery, or print directly.",
+      "ORGANIZE_TITLE": "Organized documents",
+      "ORGANIZE_DESC": "Search, categories, favorites and recents. Rename, reorder, add pages or edit them again whenever you want."
+    },
+    "PRO": {
+      "TITLE": "OptiScan Pro",
+      "DESC": "Scan for free with unlimited pages, or upgrade to Pro for the full experience.",
+      "L1": "Extract text from your documents (OCR) right on your phone.",
+      "L2": "Export without the \"Scanned with OptiScan\" watermark.",
+      "L3": "No ads."
+    },
+    "LOCAL": {
+      "TITLE": "Your documents stay on your phone",
+      "DESC": "OptiScan requires no account and never uploads your scans to any server. Everything is stored and processed on your device, including text recognition."
+    },
+    "FOOTER_COPYRIGHT": "All rights reserved.",
+    "BACK_PORTFOLIO": "← Back to portfolio",
+    "LEGAL_BACK": "Back to OptiScan",
+    "PRIVACY_POLICY": {
+      "TITLE": "Privacy Policy",
+      "EFFECTIVE_DATE": "Effective as of 2026-09-13",
+      "INTRO": "This privacy policy applies to the OptiScan app (hereby referred to as \"Application\") for mobile devices, created by Maximiliano Ariel Fava (hereby referred to as \"Service Provider\") as a free, ad-supported service with an optional subscription (OptiScan Pro). It explains what information the Application handles, how it is used and what choices you have.",
+      "COLLECTION": {
+        "TITLE": "Information the Application handles",
+        "P1": "OptiScan does not require you to create an account, sign in, or provide your name, email address or phone number.",
+        "P2": "To work, the Application handles the following data:",
+        "L1": "Documents: the original photos you capture or import, the processed pages and the details you assign to them (name, category, favorites, page order). They are stored exclusively in the Application's private storage on your device.",
+        "L2": "Preferences: settings such as language, flash or export quality, and internal counters used to control how often ads are shown. These are also stored only on your device.",
+        "L3": "Subscription status: if you have an active OptiScan Pro subscription, information provided by Google Play to enable Pro features.",
+        "P3": "The Service Provider does not operate its own servers for the Application and does not receive, store or have access to your documents, images or extracted text. The Application does not collect your precise location or access your contacts."
+      },
+      "PERMISSIONS": {
+        "TITLE": "Device permissions",
+        "P1": "The Application only requests the permissions needed for its features:",
+        "L1": "Camera: to capture the pages you scan. It is only used while the scanner screen is open.",
+        "L2": "Photos and storage: to import the images you choose from your gallery and to save your exports to the gallery or Files. On Android 9 or earlier, the storage permission is requested for this feature.",
+        "L3": "Internet: to show ads, verify your subscription with Google Play and download updates to the text recognition components.",
+        "P2": "You can revoke these permissions at any time from your device settings. Some features may stop working."
+      },
+      "OCR": {
+        "TITLE": "Text recognition (OCR)",
+        "P1": "The text extraction feature in OptiScan Pro uses Google ML Kit, which processes images directly on your device. Your documents and the recognized text are not sent to any server to perform recognition.",
+        "P2": "According to its terms of use, Google ML Kit may occasionally contact Google servers to receive bug fixes and updated models, and send technical metrics about the feature's performance and usage, which do not include the content of your documents."
+      },
+      "ADS": {
+        "TITLE": "Advertising",
+        "P1": "The free version shows ads through Google AdMob. AdMob may collect and use your device's advertising ID, your IP address, technical device information (model, operating system, language) and your interactions with ads, in order to serve ads, measure their performance and prevent fraud.",
+        "P2": "If you are in the European Economic Area, the United Kingdom or another region where it is required, the Application will ask for your consent through Google's User Messaging Platform (UMP) before showing personalized ads. You can change your choice at any time from Settings › Legal › Ad privacy.",
+        "P3": "You can also reset or delete your advertising ID from Android settings (Settings › Privacy › Ads, or Settings › Google › Ads, depending on your device). OptiScan Pro subscribers do not see ads."
+      },
+      "PURCHASES": {
+        "TITLE": "Purchases and subscriptions",
+        "P1": "OptiScan Pro subscriptions are processed through Google Play Billing. Payment details (such as your card) are handled exclusively by Google; the Service Provider does not receive or store them. The Application only receives the purchase information needed to enable Pro features, such as the product purchased, its status and the purchase receipt."
+      },
+      "THIRD_PARTY": {
+        "TITLE": "Third-party services",
+        "P1": "The Application uses third-party services that have their own privacy policies about how they handle data:",
+        "P2": "When you share or export a document, it is sent to the app or service you choose (for example, email, messaging or cloud storage), whose data handling is governed by its own policies.",
+        "P3": "The Service Provider does not sell your personal information. Information may only be disclosed if required by law, for example to comply with a court order or similar legal process."
+      },
+      "DATA_DELETION": {
+        "TITLE": "Data retention and deletion",
+        "P1": "Your documents remain on your device until you decide to delete them. You are in full control:",
+        "L1": "Delete a document or page: do it directly from the Application.",
+        "L2": "Delete all data: go to your device Settings › Apps › OptiScan › Storage and select \"Clear data\", or uninstall the Application.",
+        "L3": "Exported files: PDFs or images you saved to Files, to your gallery or shared with other apps are outside OptiScan and must be deleted there.",
+        "L4": "Advertising and purchase data: data handled by Google AdMob and Google Play is managed from your Google account settings or by resetting your advertising ID.",
+        "P2": "Since the Service Provider does not keep backups on external servers, deleted documents cannot be recovered. If you have questions about this process, you can reach us at the contact email below."
+      },
+      "CHILDREN": {
+        "TITLE": "Children's privacy",
+        "P1": "The Application is not directed at children under 13, and the Service Provider does not knowingly collect personal information from children. If you are a parent or guardian and believe your child has provided personal information, please contact the Service Provider so the necessary actions can be taken."
+      },
+      "SECURITY": {
+        "TITLE": "Security",
+        "P1": "Your documents are stored in the Application's private storage, protected by Android's sandboxing, so other apps cannot access them. We recommend protecting your phone with a screen lock and not rooting it. No storage method is 100% secure, but the Service Provider strives to protect your information."
+      },
+      "CHANGES": {
+        "TITLE": "Changes to this policy",
+        "P1": "This Privacy Policy may be updated from time to time. The Service Provider will notify you of any changes by posting the new version on this page and updating the effective date. You are advised to review it periodically."
+      },
+      "CONSENT": {
+        "TITLE": "Your consent",
+        "P1": "By using the Application, you consent to the processing of your information as set out in this Privacy Policy."
+      },
+      "CONTACT": {
+        "TITLE": "Contact us",
+        "P1": "If you have any questions regarding privacy while using the Application, please contact the Service Provider via email at"
+      }
+    },
+    "TERMS_CONDITIONS": {
+      "TITLE": "Terms and Conditions",
+      "EFFECTIVE_DATE": "Effective as of 2026-09-13",
+      "P1": "These terms and conditions apply to the OptiScan app (hereby referred to as \"Application\") for mobile devices, created by Maximiliano Ariel Fava (hereby referred to as \"Service Provider\") as a free, ad-supported service with an optional subscription.",
+      "P2": "By downloading or using the Application, you agree to these terms. Please read them carefully before using it. If you do not agree, do not use the Application.",
+      "LICENSE": {
+        "TITLE": "License and intellectual property",
+        "P1": "The Service Provider grants you a personal, limited, non-exclusive and non-transferable license to use the Application on your devices for personal or professional purposes.",
+        "P2": "Unauthorized copying or modification of the Application, any part of it or its trademarks is prohibited. You may not attempt to extract its source code, decompile it, bypass its payment features or create derivative versions. All intellectual property rights in the Application belong to the Service Provider."
+      },
+      "CONTENT": {
+        "TITLE": "Your documents",
+        "P1": "The documents you scan are yours. You are solely responsible for their content and for having the rights or permissions required to digitize them, especially when they contain other people's personal data or copyrighted works.",
+        "P2": "You must not use the Application for unlawful purposes, such as forging or altering documents. Since your documents are stored only on your device, the Service Provider does not access or review them."
+      },
+      "PRO": {
+        "TITLE": "Free version and OptiScan Pro",
+        "P1": "The free version lets you scan, crop, flatten and apply filters with unlimited pages. It includes ads and adds a \"Scanned with OptiScan\" watermark to exported files.",
+        "P2": "OptiScan Pro is an optional subscription (monthly or yearly) that removes ads and the watermark and enables text extraction (OCR). When you subscribe:",
+        "L1": "Payment is charged to your Google Play account when you confirm the purchase. The current price is shown in the Application in your local currency before you pay.",
+        "L2": "The subscription renews automatically at the end of each period unless you cancel it before the renewal date.",
+        "L3": "You can cancel at any time from Google Play › Payments & subscriptions › Subscriptions. You will keep Pro benefits until the end of the period already paid.",
+        "L4": "Refunds are governed by Google Play policies. If a free trial is offered, you will be charged when it ends unless you cancel beforehand.",
+        "P3": "The Service Provider may change prices or the features included in each plan. Price changes will be communicated in advance in accordance with Google Play rules."
+      },
+      "ADS": {
+        "TITLE": "Advertising",
+        "P1": "The free version shows ads provided by Google AdMob. The Service Provider does not control the content of third-party ads and is not responsible for the products or services they promote."
+      },
+      "ACCURACY": {
+        "TITLE": "Accuracy of results",
+        "P1": "Edge detection, flattening, filters and text recognition are automated processes and may contain errors. Always review the result before using it, especially for important documents. OptiScan is a digitization tool and does not produce certified or legally valid copies; it does not replace the original document."
+      },
+      "BACKUPS": {
+        "TITLE": "Storage and backups",
+        "P1": "Your documents are stored only on your device. If you uninstall the Application, clear its data, or lose or change your phone, your documents will be lost. It is your responsibility to export and back up any documents you want to keep."
+      },
+      "THIRD_PARTY": {
+        "TITLE": "Third-party services",
+        "P1": "The Application uses third-party services that have their own Terms and Conditions:"
+      },
+      "CONNECTIVITY": {
+        "TITLE": "Connectivity and usage charges",
+        "P1": "Scanning and editing work offline, but ads, purchases and subscription verification require Internet access. If you use the Application on mobile data, your carrier may charge you for it, including roaming charges; you are responsible for those charges. The Service Provider is also not responsible if you cannot use the Application due to lack of connectivity or battery."
+      },
+      "LIABILITY": {
+        "TITLE": "Limitation of liability",
+        "P1": "The Application is provided \"as is\" and \"as available\". To the maximum extent permitted by law, the Service Provider shall not be liable for loss of documents, errors in results, or any direct or indirect damages arising from the use of, or inability to use, the Application. Nothing in these terms limits any rights you may have under applicable consumer protection laws."
+      },
+      "UPDATES": {
+        "TITLE": "Updates and termination",
+        "P1": "The Service Provider may update the Application, and operating system requirements may change, so you may need to download updates to keep using it. The Service Provider does not guarantee that the Application will always be compatible with your operating system version and may stop offering it at any time. In that case, the rights and licenses granted in these terms will end and you must stop using it."
+      },
+      "CHANGES": {
+        "TITLE": "Changes to these Terms and Conditions",
+        "P1": "The Service Provider may update these Terms and Conditions from time to time. Changes will be posted on this page along with the new effective date. Continued use of the Application means you accept the updated terms."
+      },
+      "CONTACT": {
+        "TITLE": "Contact us",
+        "P1": "If you have any questions or suggestions about these Terms and Conditions, do not hesitate to contact the Service Provider at"
+      }
+    }
+  }
+}
